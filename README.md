@@ -1,4 +1,4 @@
-# optimizaciones-en-javascript
+# optimizaciones-en-javascript TABS
 
 Contenido:
 1. (Vídeo) Teoría sobre optimizaciones

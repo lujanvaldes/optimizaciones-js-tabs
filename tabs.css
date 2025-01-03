@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 120em;
+    background-color: lightgray;
+    padding: 1em;
+}
+
+.container .ul {
+    width: 100%;
+    background-color: lightcyan;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container .li {
+    background-color: lightgreen;
+    padding: 1em;
+    margin: 0 1em 0 0;
+}
+
+
+.container .subcontainer {
+    min-height: 10vh; /*10 veces la altura de pantalla*/
+    position: relative;
+    background-color: lightsalmon;
+
+}
+
+.contenedor .bloque {
+    background-color: lightgreen;
+    margin: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 0;
+}
